@@ -1,0 +1,90 @@
+.registration-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 30px;
+  color: #ea580c;
+}
+.registration-card {
+  background-color: white;
+  box-shadow: 0px 4px 16px rgba(126, 133, 142, 0.16);
+  height: 50vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.input-element {
+  height: 26px;
+  width: 220px;
+  font-size: 10px;
+  padding: 10px;
+}
+.button {
+  height: 30px;
+  width: 65px;
+  margin: 10px;
+  background-color: #ea580c;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.label-element {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 13px;
+}
+.error-msg {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 12px;
+  color: #ff0b37;
+}
+.input-error {
+  height: 26px;
+  width: 220px;
+  font-size: 10px;
+  padding: 10px;
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+  border-radius: 3px;
+}
+.submit-success-heading {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
+.submit-success-button {
+  height: 30px;
+  width: 156px;
+  border: 0px;
+  border-radius: 6px;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 11px;
+  color: #ffffff;
+  background-color: #ea580c;
+  margin-top: 10px;
+  cursor: pointer;
+}
